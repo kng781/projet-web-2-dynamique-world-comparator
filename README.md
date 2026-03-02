@@ -38,22 +38,5 @@ projet-web-2-dynamique-world-comparator/
     ├── norm_*.csv        # données normalisées
     └── pays.json         # données finales pour le frontend
 
-## Exécution
+```
 
-### Prérequis
-
-* Python 3.x
-* Bibliothèques : `pandas`, `requests`, `lxml`
-
-### Installation des dépendances
-
-```bash
-pip install pandas requests lxml
-
-# option 1 : script tout-en-un
-python run_pipeline.py
-
-# option 2 : scripts séparés
-python etl/extract.py
-python etl/transform.py
-python etl/load.py
