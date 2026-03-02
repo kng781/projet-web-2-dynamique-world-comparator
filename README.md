@@ -22,19 +22,21 @@ Visualiser les résultats via des graphiques radar et barres (Chart.js)
 | **Bonheur** | Our World in Data | Indice de bonheur (Cantril Ladder) |
 | **Liberté** | Our World in Data | Indice des droits humains (V-Dem) |
 
-# Architecture du Projet
+### Architecture du Projet
+
+```text
 projet-web-2-dynamique-world-comparator/
 ├── index.html
 ├── styles.css
-├── run_pipeline.py     # script ETL tout-en-un
+├── run_pipeline.py       # script ETL tout-en-un
 ├── etl/
 │   ├── extract.py
 │   ├── transform.py
 │   └── load.py
 └── data/
-    ├── raw_*.csv       # données brutes extraites
-    ├── norm_*.csv      # données normalisées
-    └── pays.json       # données finales pour le frontend
+    ├── raw_*.csv         # données brutes extraites
+    ├── norm_*.csv        # données normalisées
+    └── pays.json         # données finales pour le frontend
 
 # Exécution
 
