@@ -37,26 +37,3 @@ projet-web-2-dynamique-world-comparator/
     ├── raw_*.csv         # données brutes extraites
     ├── norm_*.csv        # données normalisées
     └── pays.json         # données finales pour le frontend
-
-# Exécution
-
-# Prérequis
-
-Python 3.x
-Bibliothèques : pandas, requests, lxml
-
-# Installation des dépendances
-
-pip install pandas requests lxml
-
-# Lancer le pipeline ETL
-
-# option 1 : script tout-en-un
-python run_pipeline.py
-
-# option 2 : scripts séparés
-python etl/extract.py
-python etl/transform.py
-python etl/load.py
-
-# Visualiser l'application
