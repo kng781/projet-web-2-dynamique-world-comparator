@@ -9,3 +9,5 @@ L'utilisateur peut :
 Classer les 8 métriques par ordre d'importance (coefficients de 4 à 0.5)
 Sélectionner deux pays à comparer
 Visualiser les résultats via des graphiques radar et barres (Chart.js)
+
+# Les 8 Métriques
